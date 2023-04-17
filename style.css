@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset ends */
+
+body {
+	background-image: url("./dungeon1.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: black;
+	transition: background-image 1s ease-in-out;
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: xx-large;
+	text-decoration: underline;
+}
+
+body.image1 {
+	background-image: url("./dungeon1.png");
+}
+body.image2 {
+	background-image: url("./dungeon2.png");
+}
+body.image3 {
+	background-image: url("./dungeon3.png");
+}
+body.image4 {
+	background-image: url("./dungeon4.png");
+}
+body.image5 {
+	background-image: url("./dungeon5.png");
+}
+body.image6 {
+	background-image: url("./dungeon6.png");
+}
+body.image7 {
+	background-image: url("./dungeon7.png");
+}
+body.image8 {
+	background-image: url("./dungeon8.png");
+}
+body.image9 {
+	background-image: url("./dungeon9.png");
+}
+
+.container-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	position: relative;
+	top: 200px;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px;
+	color: lightgray;
+	min-width: 800px;
+}
+
+.text-container {
+	max-width: 400px;
+	text-align: center;
+	font-size: large;
+}
+
+.intro-text {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -1;
+}
+
+.hp-border-box {
+	border: solid 2px blue;
+	max-width: fit-content;
+	padding: 10px;
+}
+
+#hp {
+	margin-bottom: 5px;
+}
+
+.hp-points {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.outputs {
+	margin-top: 15px;
+	text-align: center;
+	border: solid 2px lightgray;
+	padding: 15px;
+}
+
+.buttons {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.buttons button {
+	margin-top: 8px;
+}
+
+.special-box {
+	margin-top: 15px;
+	font-size: larger;
+	font-weight: bold;
+}
