@@ -1,6 +1,6 @@
 # Blackflare002.github.io
 
-I made a fun little Choose-Your-Own-Adventure game with vanilla JavaScript, HTML and CSS! This is actually the same game that I made with Ruby a while back, but now instead of being something that can only be played in a terminal, it's not a browser game! I did all the coding myself, of course, and I made the background images with AI -- Craiyon and Stable Diffusion.
+I made a fun little Choose-Your-Own-Adventure game with vanilla JavaScript, HTML and CSS! This is actually [the same game that I made with Ruby](https://github.com/Blackflare002/ruby-dungeon) a while back, but now instead of being something that can only be played in a terminal, it's not a browser game! I did all the coding myself, of course, and I made the background images with AI -- Craiyon and Stable Diffusion.
 
 Do you dare to enter the Doom Fortress?
 
